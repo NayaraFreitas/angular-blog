@@ -1,0 +1,36 @@
+.container_small-card{
+  /* border: 1px solid #fff; */
+  width: 700px;
+  margin-bottom: 15px;
+}
+
+.container_small-card-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card_picture > img{
+  height: 140px;
+  width: 160px;
+  padding-bottom: 20px;
+  margin-right: 20px;
+}
+
+.small-card_title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-card_title > h1 > a{
+  font-size: 25px
+  ;
+}
+
+.container_small-card-separator{
+  margin-top: 10px;
+}
+
+.container_small-card-separator > hr {
+  width: 600px;
+}
